@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" href="flexboxgrid-sass-master/dist/flexboxgrid.css">
+    <!-- <link rel="stylesheet" href="flexboxgrid-sass-master/demo/demo.css"> -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+    //script done by the amazing JtotheLtotheDtotheC cause I am but a mere urchin
+
+      function func(x) {
+        if (x.matches) { // If media query matches
+          console.log('3 columns');
+        } else {
+          console.log('Two columns');
+          var third = document.getElementById('third-column');
+          var elements = third.childNodes;
+
+          console.log(elements);
+          var second = document.getElementById('second-column');
+          console.log(second);
+
+          for (var i = 0; i < elements.length; i++) {
+            console.log(elements[i]);
+            second.appendChild(elements[i]);
+          }
+
+          // second.addChild(elements);
+        }
+      }
+
+      var x = window.matchMedia("(min-width: 1000px)");
+      func(x); // C
+      window.matchMedia("(min-width: 1000px)").addListener(func);
+    </script>
+</head>
+<body>
+<header>
+    <div class="navbar">
+        <div class="bird">
+            <a href="index.html"><img id="logopic" src="images/logo-small.png"></a>
+        </div>
+        <div class="container-navbar">
+            <ul>
+                <li><span><a href="index.html">WORK</a></span></li>
+                <li><span><a href="projects.html">PROJECTS</a></span></li>
+                <li><span><a href="about.html">ABOUT</a></span></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<div class="container">
+    <!-- column far left -->
+    <div class="item">
+        <div class="container-blur last">
+            <a href="work/shoot-the-book.html"><img class="resize opacity" src="images/shoot-booklet.jpg"></a>
+            <div class="hidden">SHOOT THE BOOK! 2017</div>
+        </div>
+    </div>
+    <div class="item">
+        <div class="container-blur last">
+            <a href="work/jonathan-lee.html"><img class="resize opacity" src="images/jonathan-lee.jpg"></a>
+            <div class="hidden">BUSINESS CARD DESIGN</div>
+        </div>
+    </div>
+
+    <!-- column middle -->
+    <div class="item">
+        <div class="container-blur last">
+            <a href="work/france-alumni-logo.html"><img class="resize opacity"
+                                                        src="work/work-images/alumni-0.gif" alt=""></a>
+            <div class="hidden">LOGO DESIGN</div>
+        </div>
+    </div>
+    <div class="item">
+        <div class="container-blur last">
+            <a href="work/boulevard-de-series.html"><img class="resize opacity"
+                                                         src="images/boulevard-booklets.gif" alt=""></a>
+            <div class="hidden">BOULEVARD DE SERIES 2017 + 2018</div>
+        </div>
+    </div>
+    <div class="item">
+        <div class="container-blur last">
+            <a href="work/french-film-and-tv-office.html"><img class="resize opacity"
+                                                               src="work/work-images/french-consulate-0.png"></a>
+            <div class="hidden" style="top: 0%;">COVER PHOTO</div>
+        </div>
+    </div>
+    <!-- column far right -->
+    <div class="item">
+        <div class="container-blur last">
+            <a href="work/media-kit.html"><img class="resize opacity" src="work/work-images/margaret-0.png" alt=""></a>
+            <div class="hidden">MEDIA KIT DESIGN</div>
+        </div>
+    </div>
+    <div class="item">
+        <div class="container-blur last">
+            <a href="work/the-night-of-ideas.html"><img class="resize opacity" src="images/night-of-ideas.jpg" alt=""></a>
+            <div class="hidden" style="top: 35%;">THE NIGHT OF IDEAS</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
