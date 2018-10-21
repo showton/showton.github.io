@@ -49,7 +49,7 @@ body {
 /*navbar*/
 
 #logopic {
-  width: 35%;
+  width: 100%;
   overflow: hidden;
   margin: 0;
   float: left;
@@ -70,39 +70,21 @@ body {
   margin-bottom: 5%;
 }
 
-/* .navbar li a {
-  clear: both;
-  float: left;
-  color: black;
-  text-align: left;
-  margin: 2vw;
-  text-decoration: none;
-  font-size: 1em;
-  font-weight: lighter;
-  border-bottom: 3px solid #FFFFFF;
-  padding-bottom: 3px;
-}
-
-.navbar li a:hover {
-  color: #FE8676;
-  border-bottom: 3px solid #FE8676;
-  padding-bottom: 3px;
-} */
-
 .bird {
   float: left;
   display: block;
   margin-left: 10%;
   margin-top: 1%;
-  max-width: 100%;
+  width: 15%;
 }
 
 ul {
   list-style: none;
+  float: right;
+  width: 80%;
 }
 
 ul li {
-  float: left;
   vertical-align: middle;
   margin-top: 0%;
   top: 5%;
@@ -115,10 +97,11 @@ ul li {
 .container-navbar {
   /* display: table-cell; */
   /* vertical-align: middle; */
-  text-align: left;
-  width: 100%;
+  text-align: right;
+  float: right;
+  width: 80%;
   font-family: Dense;
-  font-size: 200%;
+  font-size: 225%;
 }
 
 li {
@@ -394,9 +377,26 @@ h2,
   clear: both;
 }
 
-@media screen and (min-width: 100px) {
+@media screen and (max-width: 800px) {
   .half {
     width: 100%;
+  }
+
+  .bird {
+    width: 25%;
+  }
+
+  .container-navbar {
+    width: 100%;
+    float: left;
+    text-align: center;
+  }
+
+  ul {
+    width: 100%;
+    padding: 0;
+    float: left;
+    text-align: center;
   }
 
   .container {
@@ -464,7 +464,7 @@ h2,
   }
 
   .container-navbar {
-    width: 100%;
+    /* width: 100%; */
   }
 
   ul li {
