@@ -29,16 +29,13 @@ a:hover {
   src: url(fonts/SF-Pro-Text-Light.otf);
 }
 
+h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
   font-family: Dense;
-}
-
-h1 {
-  font-family: Youngblood;
 }
 
 body {
@@ -81,7 +78,7 @@ body {
 ul {
   list-style: none;
   float: right;
-  width: 80%;
+  width: 100%;
 }
 
 ul li {
@@ -99,7 +96,7 @@ ul li {
   /* vertical-align: middle; */
   text-align: right;
   float: right;
-  width: 80%;
+  width: 100%;
   font-family: Dense;
   font-size: 215%;
 }
@@ -354,8 +351,8 @@ h2,
 .half {
   width: 50%;
   display: flex;
-  flex-flow: column wrap;
   position: relative;
+  margin: 2%;
 }
 
 .item {
@@ -367,6 +364,21 @@ h2,
 .half-item {
   max-width: 100%;
   align-self: flex-start;
+}
+
+.press-release {
+  width: 35%;
+  margin: 5%;
+}
+
+/* page descriptor */
+.descriptor {
+  font-size: 5em;
+  letter-spacing: 0.15em;
+  margin-top: 0;
+  margin-bottom: 5%;
+  top: 0;
+  /* margin: 0 5% 5% 5% */
 }
 
 /* make it responsive */
@@ -390,6 +402,14 @@ h2,
     width: 100%;
     float: left;
     text-align: center;
+  }
+
+  .upbeat {
+    width: 100%;
+  }
+
+  .press-release {
+    width: 100%;
   }
 
   ul {
@@ -417,6 +437,7 @@ h2,
 
   ul li {
     margin-top: 4%;
+    width: 100%;
   }
 }
 
@@ -448,7 +469,7 @@ h2,
   }
 
   .half {
-    width: 50%;
+    width: 40%;
   }
 
   .container {
