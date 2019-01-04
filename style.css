@@ -346,11 +346,12 @@ h2,
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  align-items: center;
 }
 
 .half {
   width: 50%;
-  display: flex;
+  display: block;
   position: relative;
   margin: 2%;
 }
