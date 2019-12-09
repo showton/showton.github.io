@@ -29,6 +29,11 @@ a:hover {
   src: url(fonts/SF-Pro-Text-Light.otf);
 }
 
+@font-face {
+  font-family: SF Pro Bold;
+  src: url(fonts/SF-Pro-Text-Regular.otf);
+}
+
 h1,
 h2,
 h3,
@@ -235,6 +240,7 @@ h2,
 
 .bio {
   font-size: 125%;
+  padding: 0 10% 0 10%;
   text-align: left;
   margin-top: 0;
   display: block;
@@ -271,6 +277,11 @@ h2,
   margin-bottom: 0;
   text-align: left;
   position: relative;
+}
+
+#bolder-subheadings {
+  font-family: SF Pro Bold;
+  font-weight: 900;
 }
 
 /*individual projects*/
@@ -398,7 +409,7 @@ h2,
   clear: both;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 300px) and (max-width: 400px) {
   .half {
     width: 100%;
   }
