@@ -22,12 +22,14 @@
 body {
   font-family: "CircularBook", sans-serif;
   font-size: 18px;
+  font-weight: normal !important;
   margin: 36px 80px 80px 80px;
 }
 
 h1 {
   font-family: "CircularBlack", sans-serif;
   font-size: 48px;
+  font-weight: normal !important;
   line-height: 64px;
   margin: 24px 0 24px 0;
 }
@@ -35,12 +37,14 @@ h1 {
 h2 {
   font-family: "CircularBold", sans-serif;
   font-size: 36px;
+  font-weight: normal !important;
   line-height: 48px;
 }
 
 h3 {
   font-family: "CircularBlack", sans-serif;
   font-size: 28px;
+  font-weight: normal !important;
   line-height: 36px;
   margin-top: 0;
   margin-bottom: 16px;
@@ -49,12 +53,14 @@ h3 {
 h4 {
   font-family: "CircularBold", sans-serif;
   font-size: 24px;
+  font-weight: normal !important;
   line-height: 30px;
 }
 
 h5 {
   font-family: "CircularBold", sans-serif;
   font-size: 18px;
+  font-weight: normal !important;
   line-height: 24px;
   margin: 0;
 }
@@ -62,11 +68,13 @@ h5 {
 h6 {
   font-family: "CircularBold", sans-serif;
   font-size: 16px;
+  font-weight: normal !important;
   line-height: 20px;
 }
 
 p {
   margin: 16px 0;
+  font-weight: normal !important;
 }
 
 a {
