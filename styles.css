@@ -472,17 +472,17 @@ span:hover:after {
   p {
     margin-bottom: 48px;
     font-size: 16px;
-    line-height: 32px;
+    line-height: 24px;
   }
 
   [class*="item-"] p {
     font-size: 16px;
-    line-height: 32px;
+    line-height: 24px;
   }
 
   [class*="item-"] h5 {
     line-height: 32px;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
   }
 
   [class*="item-"] .outlined_button {
