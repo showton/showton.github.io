@@ -472,16 +472,16 @@ span:hover:after {
   p {
     margin-bottom: 48px;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 20px;
   }
 
   [class*="item-"] p {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 20px;
   }
 
   [class*="item-"] h5 {
-    line-height: 32px;
+    line-height: 24px;
     margin-bottom: 8px;
   }
 
@@ -495,7 +495,7 @@ span:hover:after {
   }
 
   h1 {
-    line-height: 78px;
+    line-height: 64px;
   }
 
   .captions {
