@@ -113,6 +113,7 @@ li.nav_li {
   float: left;
   display: block;
   margin: 0 48px;
+  font-size: 24px;
   vertical-align: middle;
 }
 
@@ -445,11 +446,6 @@ span:hover:after {
     grid-column-end: 4;
   }
 
-  li.nav_li {
-    margin: 0 24px;
-    font-size: 24px;
-  }
-
   body {
     margin: 36px 32px 32px 32px;
   }
@@ -542,6 +538,24 @@ span:hover:after {
     width: 54px;
   }
 
+  .name_logo_container h4 {
+    display: none;
+  }
+
+  .logo_container {
+    width: 32px;
+    margin-left: 24px;
+  }
+
+  li.nav_li {
+    margin: 0 48px;
+    font-size: 32px;
+  }
+
+  .container h1 {
+    margin: 24px;
+  }
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -562,7 +576,7 @@ span:hover:after {
 
   p {
     font-size: 16px;
-    margin-bottom: 24px;
+    margin-bottom: 32px;
   }
 
   /* Navbar */
