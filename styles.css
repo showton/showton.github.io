@@ -77,6 +77,10 @@ p {
   font-weight: normal !important;
 }
 
+b {
+  font-weight: normal !important;
+}
+
 a {
   font-family: "CircularBold", sans-serif;
   text-decoration: underline;
