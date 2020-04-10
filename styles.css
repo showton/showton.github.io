@@ -472,12 +472,10 @@ span:hover:after {
   p {
     margin-bottom: 48px;
     font-size: 18px;
-    line-height: 28px;
   }
 
   [class*="item-"] p {
     font-size: 18px;
-    line-height: 28px;
   }
 
   [class*="item-"] h5 {
