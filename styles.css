@@ -151,13 +151,6 @@ iframe {
   min-height: 560px   !important;
 }
 
-.arrow {
-  max-width: 21px;
-  margin-left: 4px;
-  display: inline-block;
-  position: relative;
-}
-
 
 /* Button */
 .outlined_button {
@@ -175,6 +168,13 @@ iframe {
 .outlined_button:hover {
   background-color: #4dcdb1;
   color: #ffffff;
+}
+
+.arrow {
+  max-width: 21px;
+  margin-left: 4px;
+  display: inline-block;
+  position: relative;
 }
 
 .arrow-white {
@@ -469,18 +469,79 @@ span:hover:after {
     width: auto;
   }
 
-  .captions {
-    font-size: 24px;
-  }
-
   .ul {
     margin: 0 16px 16px 16px;
   }
 
   p {
-    margin-bottom: 32px;
+    margin-bottom: 48px;
     font-size: 16px;
+    line-height: 32px;
   }
+
+  [class*="item-"] p {
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  [class*="item-"] h5 {
+    line-height: 32px;
+    margin-bottom: 16px;
+  }
+
+  [class*="item-"] .outlined_button {
+    margin-top: 36px;
+    text-align: center;
+  }
+
+  #paragraph_list {
+    margin: 16px 4px;
+  }
+
+  h1 {
+    line-height: 78px;
+  }
+
+  .captions {
+    font-size: 24px;
+  }
+
+  #filter_tag h5 {
+    font-size: 24px;
+  }
+
+  #category_tag p {
+    font-size: 24px;
+  }
+
+  #footer-placeholder h4 {
+    font-size: 32px;
+    margin: 40px;
+    line-height: 40px;
+  }
+
+  .social_container {
+    width: 56px;
+    height: 100%;
+    margin: 0 32px;
+  }
+
+  .outlined_button {
+    min-height: 64px;
+    padding: 16px 24px;
+    border: 6px solid #4dcdb1;
+    border-radius: 10px;
+    font-size: 36px;
+  }
+
+  .arrow {
+    width: 54px;
+  }
+
+  .arrow-white {
+    width: 54px;
+  }
+
 }
 
 @media only screen and (max-width: 1024px) {
