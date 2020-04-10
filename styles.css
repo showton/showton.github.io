@@ -2,21 +2,25 @@
 @font-face {
   font-family: CircularBook;
   src: url(fonts/CircularStd/CircularStd-Book.otf);
+  font-weight: normal !important;
 }
 
 @font-face {
   font-family: CircularMedium;
   src: url(fonts/CircularStd/CircularStd-Medium.otf);
+  font-weight: normal !important;
 }
 
 @font-face {
   font-family: CircularBold;
   src: url(fonts/CircularStd/CircularStd-Bold.otf);
+  font-weight: normal !important;
 }
 
 @font-face {
   font-family: CircularBlack;
   src: url(fonts/CircularStd/CircularStd-Black.otf);
+  font-weight: normal !important;
 }
 
 body {
