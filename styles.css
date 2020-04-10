@@ -2,25 +2,21 @@
 @font-face {
   font-family: CircularBook;
   src: url(fonts/CircularStd/CircularStd-Book.otf);
-  font-weight: normal !important;
 }
 
 @font-face {
   font-family: CircularMedium;
   src: url(fonts/CircularStd/CircularStd-Medium.otf);
-  font-weight: normal !important;
 }
 
 @font-face {
   font-family: CircularBold;
   src: url(fonts/CircularStd/CircularStd-Bold.otf);
-  font-weight: normal !important;
 }
 
 @font-face {
   font-family: CircularBlack;
   src: url(fonts/CircularStd/CircularStd-Black.otf);
-  font-weight: normal !important;
 }
 
 body {
@@ -164,10 +160,16 @@ li.nav_li {
 
 ol {
   width: 100%;
+  font-weight: normal !important;
+}
+
+li {
+  font-weight: normal !important;
 }
 
 ul.bulleted_list {
   list-style-position: outside;
+  font-weight: normal !important;
 }
 
 #paragraph_list {
@@ -230,6 +232,7 @@ ul.bulleted_list {
   font-family: "CircularMedium", sans-serif;
   font-size: 24px;
   color: #4a4a4a;
+  font-weight: normal !important;
 }
 
 iframe {
