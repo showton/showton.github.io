@@ -123,8 +123,18 @@ li.nav_li {
   color: #4dcdb1;
 }
 
+a.nav_a.active {
+  color: #4DCDB1;
+  text-decoration: line-through;
+}
+
 #nav-placeholder {
   margin-bottom: 72px;
+}
+
+#nav_name {
+  color: black;
+  text-decoration: none;
 }
 
 
@@ -490,6 +500,11 @@ span:hover:after {
 
   #paragraph_list {
     margin: 16px 4px;
+  }
+
+  #problem_statement {
+    font-size: 36px;
+    line-height: 48px;
   }
 
   h1 {
