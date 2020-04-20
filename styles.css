@@ -84,11 +84,32 @@ b {
 
 a {
   font-family: "CircularBold", sans-serif;
-  text-decoration: underline;
+  /* text-decoration: underline;
   text-decoration-color: #4dcdb1;
-  text-decoration-style: 3px solid;
+  text-decoration-style: 3px solid; */
   color: #4dcdb1;
 }
+
+a.link {
+  text-decoration: none;
+  color: #4dcdb1;
+  border-bottom: 2px solid rgba(77, 205, 177, 0.8);
+  box-shadow: 0px -0.5px 0px rgba(77, 205, 177, 0.8) inset;
+  transition: 0.3s ease-in-out;
+}
+
+a.link:hover {
+  color: white;
+  border-bottom: 2px solid rgba(77, 205, 177, 1);
+  box-shadow: 0px -32px 0px rgba(77, 205, 177, 1) inset;
+  /* opacity: 0; */
+
+}
+
+/* Transition to showing the bigger shadow on hover */
+/* a.link:hover::after {
+  opacity: 1;
+} */
 
 
 /* Navigation */
