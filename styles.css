@@ -84,9 +84,6 @@ b {
 
 a {
   font-family: "CircularBold", sans-serif;
-  /* text-decoration: underline;
-  text-decoration-color: #4dcdb1;
-  text-decoration-style: 3px solid; */
   color: #4dcdb1;
 }
 
@@ -174,8 +171,22 @@ a.nav_a.active {
   width: 100%;
 }
 
-.icon:hover {
+/* .icon:hover {
   background-color: #4dcdb1;
+} */
+
+.icon-hidden {
+  display: none;
+  left: 0;
+  bottom: 0;
+}
+
+.social_container:hover .icon-hidden {
+  display: inline;
+}
+
+.social_container:hover .icon {
+  display: none;
 }
 
 iframe {
