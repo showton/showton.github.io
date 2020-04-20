@@ -470,7 +470,7 @@ span:hover:after {
     margin-bottom: 72px;
   }
 
-  .container {
+  div.container {
     margin-bottom: 72px;
     width: auto;
   }
@@ -577,6 +577,7 @@ span:hover:after {
     float: none;
     display: block;
   }
+
   .captions {
     margin-bottom: 32px;
   }
@@ -598,5 +599,19 @@ span:hover:after {
   }
 }
 
-@media only screen and (max-width: 1920px) {
+@media only screen and (min-device-width: 1440px) and (max-device-width: 1920px) {
+  div.container {
+    max-width: 1120px;
+    margin: 32px auto;
+  }
+
+  div.wrapper {
+    max-width: 1120px;
+    margin: 0 auto;
+  }
+
+  div.div_container {
+    max-width: 1120px;
+    margin: 0 auto;
+  }
 }
