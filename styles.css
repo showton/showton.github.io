@@ -277,6 +277,13 @@ ul.bulleted_list {
   vertical-align: middle;
   width: fit-content;
   height: fit-content;
+  transition: background-color 0.15s ease-in-out;
+}
+
+#filter_tag:hover {
+  /* box-shadow: 0 5px 15px rgba(0,0,0,0.3); */
+  background-color: rgba(77, 205, 177, 0.3);
+  color: white;
 }
 
 #category_tag {
