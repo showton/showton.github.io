@@ -141,7 +141,7 @@ li.nav_li {
   color: #4dcdb1;
 }
 
-a.nav_a.active {
+a.active {
   color: #4DCDB1;
   text-decoration: line-through;
 }
