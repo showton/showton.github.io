@@ -341,22 +341,20 @@ b.title-italic {
   }
 }
 
-.footer_container button {
-  display: block;
+.footer_container a.mailto {
+  display: inline-block;
+  cursor: pointer;
   border: none;
   border-radius: 4px;
   font-size: 16px;
   background-color: #fff;
   margin: 32px auto 0;
   padding: 12px 22px;
-}
-
-.footer_container button a {
   font-family: "Hanken Grotesk", sans-serif;
   font-weight: 900;
   font-size: 16px;
   line-height: 24px;
-  padding: 12px 24px;
+  padding: 12px 46px;
   color: #000;
 }
 
