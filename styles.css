@@ -348,7 +348,7 @@ b.title-italic {
   font-size: 16px;
   background-color: #fff;
   margin: 32px auto 0;
-  padding: 12px 0;
+  padding: 12px 22px;
 }
 
 .footer_container button a {
@@ -356,7 +356,7 @@ b.title-italic {
   font-weight: 900;
   font-size: 16px;
   line-height: 24px;
-  padding: 12px 40px;
+  padding: 12px 24px;
   color: #000;
 }
 
@@ -378,10 +378,25 @@ b.title-italic {
   margin: 48px auto 0;
 }
 
+.social_container img.icon {
+  width: 32px;
+  height: 32px;
+}
+
 .social_container h3 {
   margin: 0;
   font-size: 14px;
   line-height: 16px;
+}
+
+.social_container p.social-title {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0;
+  letter-spacing: 1px;
 }
 
 .logo {
