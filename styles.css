@@ -114,7 +114,7 @@ h2 {
   line-height: 51.32px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 744px) {
   h2 {
     font-size: 40px;
   }
@@ -157,7 +157,7 @@ p {
   margin: 0 0 16px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 744px) {
   p {
     font-size: 18px;
   }
@@ -183,7 +183,7 @@ ul.nav_ul {
   list-style: none;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 744px) {
   ul.nav_ul {
     gap: 64px;
   }
@@ -198,7 +198,7 @@ li.nav_li {
   padding: 10px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 744px) {
   li.nav_li {
     font-size: 16px;
   }
@@ -221,7 +221,7 @@ li.nav_li {
   margin: 0;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 744px) {
   .intro {
     margin: 0 auto 64px;
   }
@@ -249,7 +249,7 @@ li.nav_li {
   margin: 0 auto 20px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 744px) {
   .project-container {
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
@@ -303,7 +303,13 @@ b.title-italic {
   margin: 0 auto 20px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 744px) {
+  .wrapper-main {
+    padding: 20px 40px 0;
+  }
+}
+
+@media (min-width: 1280px) {
   .wrapper-main {
     padding: 64px 120px 0;
     margin: 0 auto 128px;
@@ -324,7 +330,7 @@ b.title-italic {
   background-color: #000;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 744px) {
   .footer_container {
     padding: 24px 0 0;
   }
@@ -390,7 +396,7 @@ b.title-italic {
   background: #faf9f7;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 744px) {
   .navigation_container {
     padding: 5px 70px;
   }
@@ -401,7 +407,7 @@ b.title-italic {
   width: 74px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 744px) {
   #nav_name > svg {
     margin: 19px 10px;
     width: 80px;
@@ -454,7 +460,7 @@ b.title-italic {
   border-radius: 20px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 744px) {
   .about-container {
     max-width: 1240px;
     margin: 64px auto 128px;
@@ -589,7 +595,7 @@ b.title-italic {
   line-height: 28px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 744px) {
   .content-wrapper ol li,
   .content-wrapper ul li {
     font-size: 18px;
@@ -615,7 +621,7 @@ b.title-italic {
   margin-bottom: 0;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 744px) {
   .content-wrapper {
     margin: 40px auto 160px;
     padding: 0 140px;
