@@ -484,7 +484,9 @@ b.title-italic {
 .content-grid .image-container {
   aspect-ratio: 1 / 1;
   width: 100%;
+  max-width: 550px;
   height: auto;
+  margin: 0 auto;
   background-position: top;
   overflow: hidden;
   border-radius: 20px;
