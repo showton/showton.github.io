@@ -496,7 +496,7 @@ b.title-italic {
   .about-container {
     max-width: 1240px;
     margin: 64px auto 128px;
-    padding: 0 20px;
+    padding: 0 40px;
   }
 
   .about-container .content-grid {
@@ -521,6 +521,11 @@ b.title-italic {
 }
 
 @media (min-width: 1280px) {
+  .about-container {
+    display: grid;
+    justify-content: center;
+  }
+
   .about-container .content-grid {
     display: grid;
     grid-template-columns: 420px 1fr;
