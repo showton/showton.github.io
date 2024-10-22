@@ -101,6 +101,11 @@ select {
   font: inherit;
 }
 
+.favicon {
+  width: 16px;
+  height: 16px;
+}
+
 h1 {
   font-family: "ivypresto-display", sans-serif;
   font-weight: 400;
@@ -314,7 +319,7 @@ b.title-italic {
 
 .wrapper-main {
   width: 100%;
-  max-width: 1240px;
+  max-width: 1280px;
   padding: 32px 20px 0;
   margin: 0 auto 128px;
 }
@@ -483,7 +488,7 @@ b.title-italic {
   margin: 32px auto 96px;
   padding: 0 20px;
   width: 100%;
-  max-width: 1240px;
+  max-width: 1280px;
 }
 
 .content-grid {
@@ -504,7 +509,7 @@ b.title-italic {
 
 @media (min-width: 744px) {
   .about-container {
-    max-width: 1240px;
+    max-width: 1280px;
     margin: 64px auto 128px;
     padding: 0 40px;
   }
@@ -671,7 +676,7 @@ b.title-italic {
 @media (min-width: 744px) {
   .content-wrapper {
     margin: 40px auto 160px;
-    padding: 0 140px;
+    padding: 0 40px;
   }
 
   .content-wrapper a {
@@ -731,6 +736,13 @@ b.title-italic {
   .project-detail img {
     width: 100%;
     margin: 40px 0 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .content-wrapper {
+    margin: 40px auto 160px;
+    padding: 0 140px;
   }
 }
 
