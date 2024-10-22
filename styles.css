@@ -429,6 +429,12 @@ b.title-italic {
   background: #faf9f7;
 }
 
+@media (min-width: 744px) {
+  .navigation_container {
+    padding: 5px 30px;
+  }
+}
+
 @media (min-width: 1280px) {
   .navigation_container {
     padding: 5px 70px;
