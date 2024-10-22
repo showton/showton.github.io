@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     passwordModal.style.display = "flex";
     passwordInput.focus();
     document.body.classList.add("modal-open");
+    protectedContent.style.filter = "blur(32px)";
   };
 
   const handlePasswordSubmission = () => {
