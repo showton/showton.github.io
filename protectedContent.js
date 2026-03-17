@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const passwordInput = document.getElementById("passwordInput");
   const errorMsg = document.getElementById("errorMsg");
 
-  const EPW = "&4%2*0#2-@n#g$i^s%e(d$p!o*o#g";
+  const EPW = "n!g&i^s%e$D-#H@R!S";
   const RPW = EPW.split("").reverse().join("");
   const DPW = RPW.replace(/[^a-zA-Z0-9-]/g, "");
 

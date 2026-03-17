@@ -2,7 +2,8 @@
 
 @font-face {
   font-family: "ivypresto-display";
-  src: url("https://use.typekit.net/af/068d77/00000000000000007735e5a6/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3")
+  src:
+    url("https://use.typekit.net/af/068d77/00000000000000007735e5a6/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3")
       format("woff2"),
     url("https://use.typekit.net/af/068d77/00000000000000007735e5a6/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3")
       format("woff"),
@@ -16,7 +17,8 @@
 
 @font-face {
   font-family: "ivypresto-display";
-  src: url("https://use.typekit.net/af/8de6e4/00000000000000007735e5a4/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3")
+  src:
+    url("https://use.typekit.net/af/8de6e4/00000000000000007735e5a4/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3")
       format("woff2"),
     url("https://use.typekit.net/af/8de6e4/00000000000000007735e5a4/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3")
       format("woff"),
@@ -30,7 +32,8 @@
 
 @font-face {
   font-family: "ivypresto-display";
-  src: url("https://use.typekit.net/af/4f9700/00000000000000007735e5a7/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3")
+  src:
+    url("https://use.typekit.net/af/4f9700/00000000000000007735e5a7/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3")
       format("woff2"),
     url("https://use.typekit.net/af/4f9700/00000000000000007735e5a7/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3")
       format("woff"),
@@ -44,7 +47,8 @@
 
 @font-face {
   font-family: "ivypresto-display";
-  src: url("https://use.typekit.net/af/343df8/00000000000000007735e5b3/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+  src:
+    url("https://use.typekit.net/af/343df8/00000000000000007735e5b3/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
       format("woff2"),
     url("https://use.typekit.net/af/343df8/00000000000000007735e5b3/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
       format("woff"),
@@ -636,6 +640,11 @@ b.title-italic {
   margin-bottom: 8px;
 }
 
+.content-wrapper .ul-title-bold {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
 .content-wrapper ul li {
   margin: 0 0 8px;
   font-size: 16px;
@@ -879,4 +888,8 @@ input[type="password"]:not(:placeholder-shown) {
     top: 12px;
     right: 12px;
   }
+}
+
+.no-margin {
+  margin: 0 !important;
 }
