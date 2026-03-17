@@ -20,9 +20,15 @@ document.addEventListener("DOMContentLoaded", () => {
     const userPassword = passwordInput.value;
 
     if (userPassword === DPW) {
-      passwordModal.style.display = "none";
-      protectedContent.style.filter = "none";
-      document.body.classList.remove("modal-open");
+      passwordModal.classList.add("hide");
+      protectedContent.classList.add("unblur");
+      setTimeout(() => {
+        passwordModal.style.display = "none";
+      }, 250);
+      setTimeout(() => {
+        protectedContent.style.filter = "none";
+        document.body.classList.remove("modal-open");
+      }, 600);
     } else {
       errorMsg.style.display = "block";
     }
@@ -37,6 +43,14 @@ document.addEventListener("DOMContentLoaded", () => {
     if (event.key === "Enter") {
       event.preventDefault();
       handlePasswordSubmission();
+    }
+  });
+
+  passwordInput.addEventListener("input", (event) => {
+    if (event.target.value.length > 0) {
+      submitPasswordBtn.classList.add("active");
+    } else {
+      submitPasswordBtn.classList.remove("active");
     }
   });
 

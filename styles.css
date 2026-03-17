@@ -73,12 +73,10 @@
 
 html {
   scroll-behavior: smooth;
-  height: 100%;
   transition: all ease-in-out 250ms;
 }
 
 body {
-  height: 100%;
   transition: opacity 0.5s ease;
   font-family: "Hanken Grotesk", sans-serif;
   font-optical-sizing: auto;
@@ -429,8 +427,10 @@ b.title-italic {
   justify-content: space-between;
   width: 100%;
   position: sticky;
+  top: 0;
   padding: 5px 10px;
   background: #faf9f7;
+  z-index: 100;
 }
 
 @media (min-width: 744px) {
@@ -777,6 +777,12 @@ b.title-italic {
   justify-content: center;
   align-items: center;
   transition: all ease-in-out 250ms;
+  opacity: 1;
+}
+
+.modal-wrapper.hide {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .modal {
@@ -842,9 +848,14 @@ b.title-italic {
   border-radius: 4px;
   text-transform: uppercase;
   padding: 12px 40px;
+  transition: background 350ms ease-in-out;
 }
 
 .modal-content .input-wrapper button:active {
+  background: #000;
+}
+
+.modal-content .input-wrapper button.active {
   background: #000;
 }
 
@@ -892,4 +903,12 @@ input[type="password"]:not(:placeholder-shown) {
 
 .no-margin {
   margin: 0 !important;
+}
+
+#protectedContent {
+  transition: filter 350ms ease-in-out;
+}
+
+#protectedContent.unblur {
+  filter: blur(0px) !important;
 }
